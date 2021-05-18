@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import "./About.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Span } from "../../components/Core";
@@ -27,81 +28,48 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
           <Row className="align-items-center">
             <Col lg="6">
               <div>
-                <img src={imgPhoto} alt="folio" className="img-fluid" />
+                <img src={imgPhoto}  id="classpic" alt="folio" className="img-fluid" />
               </div>
             </Col>
             <Col lg="6">
               <div className="pl-lg-4 pt-5 pt-lg-0">
                 <Title color="light" variant="secSm">
-                  Bruce Ryan
-                </Title>
-                <Text
+Benedikt Lantsoght                </Title>
+<Text
                   color="light"
-                  className="mt-3 mt-lg-5"
+                  className="name mt-3 mt-lg-5"
                   css={`
                     line-height: 1.5;
                   `}
                 >
-                  UX Designer based in New York, USA. I am designing with a
-                  minimal and beautiful design in mind.
+                  Coding in REACT with a
+                  minimal and beautiful design in mind is what I aim for.
                 </Text>
                 <Text color="light" className="mt-4">
-                  I strive for a minimal and beautiful design.
-                </Text>
+                Since July 2019 I am a REACT instructor at
+              Intec Brussels. Teaching complex code as simple as possible made me an appreciated
+              job-generator for my students.                </Text>
                 <div className="mt-4">
                   <Text color="light">Email me at</Text>
 
                   <Text variant="p">
                     <a
-                      href="mailto:hello@folio.com"
+                      href="mailto:B.Lantsoght@gmail.com"
                       className="font-weight-bold"
                     >
-                      <Span color="light">hello@folio.com</Span>
+                      <Span color="light">B.Lantsoght@gmail.com</Span>
                     </a>
                   </Text>
                 </div>
                 <div className="mt-5">
-                  <img src={imgSignLight} alt="sign" className="img-fluid" />
+                  <img src={imgSignLight}   id="signature" alt="sign" className="img-fluid" />
                 </div>
-                <Text color="light" className="mt-3 font-weight-bold">
-                  Bruce Ryan
+                <Text color="light" className="mt-3">
+                  Soldatenstraat 63, 1082 St. Agatha Berchem, Brussel
                 </Text>
-                <Text color="light" variant="small">
-                  Founder of Folio Digital
-                </Text>
+
                 <div className="mt-5 d-flex">
-                  <LinkSocial
-                    href="https://www.dribbble.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Dribble
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className=" mr-3"
-                  >
-                    Twitter
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Facebook
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-weight-bold"
-                  >
-                    Instagram
-                  </LinkSocial>
+                  
                 </div>
               </div>
             </Col>

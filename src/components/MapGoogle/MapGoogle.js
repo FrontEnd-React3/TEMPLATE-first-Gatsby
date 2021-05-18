@@ -60,11 +60,10 @@ const MapGoogle = () => {
           defaultZoom={12}
           className="h-100 w-100"
         >
-          <LocationPin lat={location.lat} lng={location.lng} />
+          <LocationPin lat={50.86189273981511} lng={4.2963188210049} />
         </GoogleMapReact>
       </MapStyled>
     </>
   );
 };
-
 export default MapGoogle;

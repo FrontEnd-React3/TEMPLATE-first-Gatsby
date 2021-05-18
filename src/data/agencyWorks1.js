@@ -17,13 +17,13 @@ export const agencyWorks1 = [
     thumbnail: imgT1,
   link : "/portfolio-details"
 },
-  {
-    brand: `Travel App`,
-    slug: `travel-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`app`, `web`],
-    thumbnail: imgT2,
-  link : "/portfolio-details"
+{
+  brand: `Recipe App`,
+  slug: `recipe-app`,
+  title: `Food for the brain.`,
+  categories: [`app`, `ui-design`],
+  thumbnail: imgT5,
+link : "/portfolio-details"
 },
   {
     brand: `Shopper`,
@@ -42,9 +42,9 @@ export const agencyWorks1 = [
   link : "/portfolio-details"
 },
   {
-    brand: `Travel App`,
-    slug: `travel-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
+    brand: `Recipe App`,
+    slug: `recipe-app`,
+    title: `Food for the brain.`,
     categories: [`app`, `ui-design`],
     thumbnail: imgT5,
   link : "/portfolio-details"

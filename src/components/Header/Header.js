@@ -440,6 +440,18 @@ const Header = ({ isDark }) => {
                       href="/#"
                       onClick={(e) => {
                         e.preventDefault();
+                        console.log("hey");
+                      }}
+                    >
+                      portfolio.
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="/#"
+                      onClick={(e) => {
+                        e.preventDefault();
                         gContext.toggleAbout();
                       }}
                     >
@@ -460,15 +472,7 @@ const Header = ({ isDark }) => {
                       contact.
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      href="https://uxtheme.net/theme-support"
-                      target="_blank"
-                    >
-                      support
-                    </a>
-                  </li>
+
                 </Menu>
               </div>
             </div>

@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <>
       <PageWrapper darkTheme>
-        <Hero />
+      <Hero />
         <Works />
         <CTA />
       </PageWrapper>

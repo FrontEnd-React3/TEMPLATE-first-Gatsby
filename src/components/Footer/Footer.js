@@ -24,7 +24,7 @@ const Footer = ({ isDark = true }) => {
               `}
               className="text-uppercase"
             >
-              © 2020 All right reseved
+              latest update: 01/06/21
             </Title>
           </div>
         </Container>

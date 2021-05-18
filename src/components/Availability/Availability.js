@@ -11,13 +11,32 @@ const AvailableCircle = styled(Box)`
 
 const Hero = ({ className = "justify-content-center", ...rest }) => {
   return (
-    <>
-      <Box className={`d-flex align-items-center ${className}`} {...rest}>
-        <AvailableCircle className="bg-success" mr="13px" />
+    <>      <Box className={`d-flex align-items-center ${className}`} {...rest}>
+      <AvailableCircle className="bg-success" mr="13px" />
         <Text variant="tag" className="text-uppercase" color="heading">
-          AVAILABLE FOR FREELANCE PROJECTS
-        </Text>
-      </Box>
+          Adobe Creative Suite
+        </Text> 
+      </Box><br/>
+    <Box className={`d-flex align-items-center ${className}`} {...rest}>
+      <AvailableCircle className="bg-success" mr="13px" />
+        <Text variant="tag" className="text-uppercase" color="heading">
+          Git, Teams, Node
+        </Text> 
+      </Box><br/>
+      <Box className={`d-flex align-items-center ${className}`} {...rest}>
+      <AvailableCircle className="bg-warning" mr="13px" />
+        <Text variant="tag" className="text-uppercase" color="heading">
+          REACT, Gatsby, React-native
+        </Text> 
+      </Box><br/>
+      <Box className={`d-flex align-items-center ${className}`} {...rest}>
+      <AvailableCircle className="bg-success" mr="13px" />
+        <Text variant="tag" className="text-uppercase" color="heading">
+          PHP, Mysql, Firebase
+        </Text> 
+      </Box><br/><br/>
+      <Box className={`d-flex align-items-center ${className}`} {...rest}>
+      <AvailableCircle className="bg-success" mr="13px" /><AvailableCircle className="bg-success" mr="13px" /><AvailableCircle className="bg-success" mr="13px" /></Box><br/>
     </>
   );
 };
